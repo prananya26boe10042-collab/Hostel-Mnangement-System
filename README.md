@@ -51,7 +51,3 @@ Use the fee options to record payments and check the hostel fees that are pendin
 Check the Room Status to see which rooms are available and which are occupied.
 To view an overall summary of the students, rooms, fees, and complaints, select 'Hostel Summary'.
 - Attempt using various student details, room numbers, and payment amounts to see how the programme deals with different situations.
-
-## Screenshots
-
-
