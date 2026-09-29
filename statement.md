@@ -2,23 +2,22 @@
 
 ## Problem Statement
 
-Managing hostel details manually can become difficult when there are many students, rooms, fee payments, and complaints to keep track of. It can take extra time to find student information, check room availability, or calculate pending fees. A simple digital system can make these everyday hostel tasks easier, quicker, and more organized.
+Managing hostel details, by hand can get complicated when there are a lot of students, rooms, fee payments and complaints to handle. It takes a lot of time to look up student information see which rooms are free or figure out how much money is still owed. A simple digital system can help make these daily hostel tasks easier, faster and more organized.
 
 ## Scope of the Project
 
-Hostel Management System is a simple Python-based application designed to manage common hostel activities in one place. Users can add and search student details, assign or vacate rooms, check room availability, record hostel fee payments, view pending fees, and register complaints. The program uses a simple menu-driven interface, making it easy to understand and use even for beginners.
+The Hostel Management System is an application built using Python. It brings together all the hostel tasks into one place. Users can add students search for existing ones assign rooms and mark rooms as vacated when needed. The system also lets users check which rooms are occupied and which ones are available. It records fee payments shows how much is still pending and allows students to register complaints. The program has a menu-driven interface that's clear and easy to use, even for people who are just starting to learn programming.
 
 ## Target Users
-
-- Hostel wardens or administrators who need to manage student and room details
-- Students who want to understand how hostel activities can be handled digitally
-- Beginners learning Python who want to apply programming concepts to a real-life project
-
+- Hostel. Administrators who need to keep track of student and room details
+- Students who want to see how hostel work can be handled digitally
+- Beginners learning Python who want to use programming skills in a real-world situation
+  
 ## High-Level Features
 
-- Add, view, and search student details
-- Assign rooms and vacate rooms when needed
-- Check occupied and available hostel rooms
-- Record hostel fee payments and view pending amounts
-- Register and view student complaints
-- Display a summary of students, rooms, fees, and complaints
+- Add, view and search student details
+- Assign rooms to students and mark rooms as vacated when needed
+- Check which rooms are occupied and which ones are available
+- Record hostel fee payments and view how much is still pending
+- Register complaints and look at the list of complaints
+- Show a summary of students, rooms, fees and complaints
