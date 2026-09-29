@@ -1,9 +1,9 @@
 # Hostel Management System
 
 ## Overview
-Hostel Management System is a simple Python-based application created to make basic hostel activities easier to manage. It allows users to store student details, assign and vacate rooms, manage hostel fee payments, register complaints, and check room availability through a simple menu-driven interface.
+The Hostel Management System is a straightforward application based on Python which has been developed in order to make it easier to carry out basic hostel activities. It enables users to store information about students, assign and vacate rooms, manage payments of hostel fees, register complaints, and check whether rooms are available by means of a simple menu-driven interface.
 
-The project is designed using beginner-friendly Python concepts, so the code is easy to understand, modify, and explain.
+The project makes use of Python concepts that are suitable for beginners, which means that the code is easy to understand, modify, and explain.
 
 ## Features
 - Add and view student details
@@ -16,7 +16,7 @@ The project is designed using beginner-friendly Python concepts, so the code is 
 - View a quick summary of students, rooms, fees, and complaints
 
 ## Technologies/Tools Used
-- Python 3.x for development
+- Use Python 3.x when developing
 - Lists to store collections of data
 - Dictionaries to organize student and room information
 - Tuples and sets for handling fixed and unique values
@@ -32,9 +32,9 @@ The project is designed using beginner-friendly Python concepts, so the code is 
     cd hostel-management-system
     ```
 
-2. **No additional libraries are required.**
+2. There is no need to use any additional libraries.
     
-    Make sure Python 3.x is installed on your system.
+    Ensure that Python 3.x is installed on your system.
 
 3. **Launch the application:**
     ```
@@ -43,14 +43,14 @@ The project is designed using beginner-friendly Python concepts, so the code is 
 
 ## How to Use & Test the Application
 
-- Run `main.py` to open the Hostel Management System menu.
-- Choose “Add Student” to register a new student and generate a student ID.
-- Select “Assign Room” to allot an available room to a student.
-- Use the fee options to record payments and check pending hostel fees.
-- Students can also register complaints through the complaint section.
-- Use “Room Status” to check available and occupied rooms.
-- Select “Hostel Summary” to see an overall summary of students, rooms, fees, and complaints.
-- Try entering different student details, room numbers, and payment amounts to test how the program handles different situations.
+Run `main.py` to open the Hostel Management System menu.
+- Click “Add Student” to sign up a new student and create a student ID.
+- Choose 'Assign Room' in order to assign an available room to a student.
+Use the fee options to record payments and check the hostel fees that are pending.
+- Students have the option of submitting complaints via the complaint section.
+Check the Room Status to see which rooms are available and which are occupied.
+To view an overall summary of the students, rooms, fees, and complaints, select 'Hostel Summary'.
+- Attempt using various student details, room numbers, and payment amounts to see how the programme deals with different situations.
 
 ## Screenshots
 
