@@ -1,7 +1,7 @@
 # Hostel Management System
 
 ## Overview
-The Hostel Management System is a straightforward application based on Python which has been developed in order to make it easier to carry out basic hostel activities. It enables users to store information about students, assign and vacate rooms, manage payments of hostel fees, register complaints, and check whether rooms are available by means of a simple menu-driven interface.
+The Hostel Management System is an application based on Python which has been developed in order to make it easier to carry out basic hostel activities. It enables users to store information about students, assign and vacate rooms, manage payments of hostel fees, register complaints, and check whether rooms are available by means of a simple menu-driven interface.
 
 The project makes use of Python concepts that are suitable for beginners, which means that the code is easy to understand, modify, and explain.
 
