@@ -1,43 +1,43 @@
 from data import students, complaints
-from students import find_student
 
 
 def add_complaint():
     print("\n--- ADD COMPLAINT ---")
 
-    if len(students) == 0:
-        print("No students have been added yet.")
-        return
-
     student_id = input("Enter Student ID (example: H1): ")
 
-    student = find_student(student_id)
+    student_found = None
 
-    if student == None:
+    for student in students:
+        if student["id"] == student_id:
+            student_found = student
+            break
+
+    if student_found == None:
         print("Student not found.")
         return
 
-    message = input("Enter your complaint: ")
+    complaint_text = input("Enter complaint: ")
 
     complaint = {
         "student_id": student_id,
-        "name": student["name"],
-        "message": message
+        "name": student_found["name"],
+        "complaint": complaint_text
     }
 
     complaints.append(complaint)
 
-    print("Complaint registered successfully.")
+    print("Complaint added successfully.")
 
 
 def view_complaints():
     print("\n--- COMPLAINTS ---")
 
     if len(complaints) == 0:
-        print("No complaints have been registered.")
+        print("No complaints found.")
     else:
         for complaint in complaints:
             print("\n----------------------------")
             print("Student ID:", complaint["student_id"])
             print("Name      :", complaint["name"])
-            print("Complaint :", complaint["message"])
+            print("Complaint :", complaint["complaint"])
